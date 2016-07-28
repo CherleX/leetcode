@@ -9,7 +9,7 @@ Reverse digits of an integer.
 
 [click to show spoilers.](#)
 
-<div class="spoilers" style="display: none;">**Have you thought about this?**
+<div class="spoilers" style="display: block;">**Have you thought about this?**
 
 Here are some good questions to ask before coding. Bonus points for you if you have already thought through this!
 
@@ -32,12 +32,12 @@ Test cases had been added to test the overflow behavior.
 
 <div>
 
-<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
 
-<span class="hidebutton">[Math](/tag/math/)</span></div>
+<span class="hidebutton" style="display: inline;">[Math](/tag/math/)</span></div>
 
 <div>
 
-<div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
+<div id="similar" class="btn btn-xs btn-warning">Hide Similar Problems</div>
 
-<span class="hidebutton">[(E) String to Integer (atoi)](/problems/string-to-integer-atoi/)</span></div>
+<span class="hidebutton" style="display: inline;">[(E) String to Integer (atoi)](/problems/string-to-integer-atoi/)</span></div>
