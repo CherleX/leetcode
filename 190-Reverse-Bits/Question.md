@@ -22,9 +22,9 @@ Special thanks to [@ts](https://oj.leetcode.com/discuss/user/ts) for adding this
 
 <div>
 
-<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
 
-<span class="hidebutton">[Bit Manipulation](/tag/bit-manipulation/)</span></div>
+<span class="hidebutton" style="display: inline;">[Bit Manipulation](/tag/bit-manipulation/)</span></div>
 
 <div>
 
