@@ -4,12 +4,7 @@ class Solution(object):
         :type num: int
         :rtype: List[int]
         """
-        result = []
-        for i in range(num+1):
-            count = 0
-            while i:
-                i = i&(i-1)
-                count += 1
-            result.append(count)
-            
+        result = [0] * (num + 1)
+        for i in range(1, num + 1):
+            result[i] = result[i & (i - 1)] + 1
         return result
