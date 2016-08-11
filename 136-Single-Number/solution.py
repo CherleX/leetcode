@@ -4,4 +4,4 @@ class Solution(object):
         :type nums: List[int]
         :rtype: int
         """
-        return sum(set(nums)) * 2 - sum(nums)
+        return reduce(lambda n, res: res ^ n, nums)
