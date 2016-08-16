@@ -4,13 +4,15 @@ class Solution(object):
         :type num: int
         :rtype: bool
         """
-        left, right = 0, num
-        while left <= right:
-            mid = int((left + right) / 2)
-            if mid ** 2 > num:
-                right = mid - 1
-            elif mid ** 2 == num:
+        low = 1
+        high = num//2 + 1
+        while low <= high :
+            mid = (low+high)//2
+            sq =  mid*mid
+            if sq == num:
                 return True
+            elif sq > num:
+                high = mid -1
             else:
-                left = mid + 1
+                low = mid + 1
         return False
