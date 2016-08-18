@@ -19,12 +19,12 @@ You may assume that each input would have exactly one solution.
 
 <div>
 
-<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
 
-<span class="hidebutton">[Array](/tag/array/) [Two Pointers](/tag/two-pointers/) [Binary Search](/tag/binary-search/)</span></div>
+<span class="hidebutton" style="display: inline;">[Array](/tag/array/) [Two Pointers](/tag/two-pointers/) [Binary Search](/tag/binary-search/)</span></div>
 
 <div>
 
-<div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
+<div id="similar" class="btn btn-xs btn-warning">Hide Similar Problems</div>
 
-<span class="hidebutton">[(E) Two Sum](/problems/two-sum/)</span></div>
+<span class="hidebutton" style="display: inline;">[(E) Two Sum](/problems/two-sum/)</span></div>
