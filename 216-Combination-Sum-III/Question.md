@@ -41,9 +41,9 @@ Special thanks to [@mithmatt](https://leetcode.com/discuss/user/mithmatt) for ad
 
 <div>
 
-<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
 
-<span class="hidebutton">[Array](/tag/array/) [Backtracking](/tag/backtracking/)</span></div>
+<span class="hidebutton" style="display: inline;">[Array](/tag/array/) [Backtracking](/tag/backtracking/)</span></div>
 
 <div>
 
