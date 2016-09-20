@@ -11,21 +11,8 @@
 # @return {Integer}
 def min_depth(root)
   return 0 if root.nil?
-  queue = Queue.new
-  queue.push(root)
-  i = 0
-  while !queue.empty?
-    i += 1
-    count = queue.size
-    count.times do
-      front = queue.pop
-      queue.push(front.left) unless front.left.nil?
-      queue.push(front.right) unless front.right.nil?
-      if front.left.nil? && front.right.nil?
-        return i
-      end
-    end
-  end
-  return -1
+  return 1 + min_depth(root.left) if root.right.nil?
+  return 1 + min_depth(root.right) if root.left.nil?
+  return 1 + [min_depth(root.left), min_depth(root.right)].min
 
 end
