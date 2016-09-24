@@ -31,9 +31,9 @@ return its bottom-up level order traversal as:
 
 <div>
 
-<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
 
-<span class="hidebutton">[Tree](/tag/tree/) [Breadth-first Search](/tag/breadth-first-search/)</span></div>
+<span class="hidebutton" style="display: inline;">[Tree](/tag/tree/) [Breadth-first Search](/tag/breadth-first-search/)</span></div>
 
 <div>
 
