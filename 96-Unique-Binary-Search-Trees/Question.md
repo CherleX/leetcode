@@ -22,9 +22,9 @@ Given _n_ = 3, there are a total of 5 unique BST's.
 
 <div>
 
-<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
 
-<span class="hidebutton">[Tree](/tag/tree/) [Dynamic Programming](/tag/dynamic-programming/)</span></div>
+<span class="hidebutton" style="display: inline;">[Tree](/tag/tree/) [Dynamic Programming](/tag/dynamic-programming/)</span></div>
 
 <div>
 
