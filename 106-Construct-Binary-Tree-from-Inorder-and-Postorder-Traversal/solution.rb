@@ -11,16 +11,28 @@
 # @param {Integer[]} postorder
 # @return {TreeNode}
 def build_tree(inorder, postorder)
-  build(inorder, postorder, 0, 0, inorder.length)
+  inorder_map = {}
+  inorder.each_with_index { |num, idx| inorder_map[num] = idx }
+
+  _build_tree_(
+    postorder, 0, postorder.size,
+      inorder, 0,   inorder.size, inorder_map
+  )
 end
 
-def build(inorder, postorder, istart, pstart, size)
-  return nil if size == 0
-  root = TreeNode.new(postorder[pstart + size - 1])
-  cur_index = inorder.find_index(root.val)
-  lsize = cur_index - istart
-  rsize = size - lsize - 1
-  root.left = build(inorder, postorder, istart, pstart, lsize)
-  root.right = build(inorder, postorder, cur_index + 1, pstart + lsize, rsize)
+private def _build_tree_(postorder, pl, pu, inorder, il, iu, inorder_map)
+  return nil if pu - pl <= 0
+
+  num = postorder[pu - 1]
+  return TreeNode.new(num) if pu - pl == 1
+
+  im = inorder_map[num]
+  pm = pl + (im - il)
+
+  ltree = _build_tree_(postorder, pl, pm, inorder, il, im, inorder_map)
+  rtree = _build_tree_(postorder, pm, pu - 1, inorder, im + 1, iu, inorder_map)
+
+  root = TreeNode.new(num)
+  root.left, root.right = ltree, rtree
   root
 end
