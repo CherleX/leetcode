@@ -44,6 +44,6 @@ Special thanks to [@dietpepsi](https://leetcode.com/discuss/user/dietpepsi) for 
 
 <div>
 
-<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
 
-<span class="hidebutton">[Stack](/tag/stack/)</span></div>
+<span class="hidebutton" style="display: inline;">[Stack](/tag/stack/)</span></div>
