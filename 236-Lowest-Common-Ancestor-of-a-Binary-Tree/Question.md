@@ -25,12 +25,12 @@ For example, the lowest common ancestor (LCA) of nodes `5` and `1` is `3`. Anoth
 
 <div>
 
-<div id="tags" class="btn btn-xs btn-warning">Show Tags</div>
+<div id="tags" class="btn btn-xs btn-warning">Hide Tags</div>
 
-<span class="hidebutton">[Tree](/tag/tree/)</span></div>
+<span class="hidebutton" style="display: inline;">[Tree](/tag/tree/)</span></div>
 
 <div>
 
-<div id="similar" class="btn btn-xs btn-warning">Show Similar Problems</div>
+<div id="similar" class="btn btn-xs btn-warning">Hide Similar Problems</div>
 
-<span class="hidebutton">[(E) Lowest Common Ancestor of a Binary Search Tree](/problems/lowest-common-ancestor-of-a-binary-search-tree/)</span></div>
+<span class="hidebutton" style="display: inline;">[(E) Lowest Common Ancestor of a Binary Search Tree](/problems/lowest-common-ancestor-of-a-binary-search-tree/)</span></div>
