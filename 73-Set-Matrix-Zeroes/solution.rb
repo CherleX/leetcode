@@ -20,12 +20,8 @@ def set_zeroes(matrix)
       end
     end
   end
-  if row0maker
-    (0...n).each { |j| matrix[0][j] = 0 }
-  end
-  if col0maker
-    (0...m).each { |i| matrix[i][0] = 0 }
-  end
+  ((0...n).each { |j| matrix[0][j] = 0 }; nil) if row0maker
+  ((0...m).each { |i| matrix[i][0] = 0 }; nil) if col0maker
 
 
 end
